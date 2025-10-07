@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor {
+    width: auto;
+    height: auto;
+    text-align: center;
+    border: 5px solid rgb(0, 255, 0);
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgb(0, 255, 0);
+    padding: 20px;
+    transform: scale(1.2);
+    background-color: black;
+}
+
+h1 {
+    color: rgb(0, 255, 0);
+    text-shadow: 0 0 20px rgb(0, 255, 0);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+#vidasContainer {
+    margin: 0 auto 20px;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    /* justify-content: center; */
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 255, 0);
+    /* visibility: hidden; */
+}
+
+#vidasContainer #vidasTxt {
+    display: flex;
+    justify-content: left;
+    margin-left: 3%;
+}
+
+#vidas {
+    font-size: 1rem;
+    display: inline-flex;
+}
+
+.frutas {
+    border: 5px solid rgb(0, 255, 0);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+    padding: 10px;
+    background-color: rgb(19, 19, 19);
+}
+
+#img1,
+#img2,
+#img3 {
+    /* background-color: aliceblue; */
+    padding: 10px;
+}
+
+.animar {
+    animation: girar 1s ease-in-out;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(1800deg);
+    }
+}
+
+#boton {
+    margin: 20px;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(0, 255, 0);
+        box-shadow: 0 0 20px rgb(0, 255, 0);
+        cursor: pointer;
+    }
+}
+#boton:disabled{
+    background-color: darkgreen;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+
+#resultadoContainer {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    background-color: rgb(19, 19, 19);
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 255, 0);
+}
+.blur{
+    filter: blur(5px);
+}

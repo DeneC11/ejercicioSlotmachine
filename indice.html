@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruteador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Micro+5&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="contenedor">
+        <h1>fruteador</h1>
+        <!-- vidas -->
+         <div id="vidasContainer">
+            <span id="vidasTxt">Vidas:</span>
+            <div id="vidas" class="vidas"></div>
+        </div>
+        
+        <div class="frutas">
+            <img id="img1" src="img/cereza.png" alt="fruta1">
+            <img id="img2" src="img/fresa.png" alt="fruta2">
+            <img id="img3" src="img/limon.png" alt="fruta3">
+        </div>
+        <button class="btn" id="boton">Frutear</button>
+        <div id="resultadoContainer">
+            <h2 id="resultado">¡¡Frutea!!</h2>
+        </div>        
+    </div>
+    <audio id="sonidoVictoria" src="./sounds/win.mp3"></audio>
+    <audio id="sonidoDerrota" src="./sounds/loose.mp3"></audio> 
+    <script src="script.js"></script>    
+</body>
+</html>
