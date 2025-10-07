@@ -21,3 +21,9 @@ Este proyecto es un ejercicio práctico del Certificado Profesional N3 en Desarr
 - HTML5
 - CSS3 (animaciones incluidas)
 - JavaScript (DOM, lógica de juego)
+
+## Demo
+[Accede a la demo](http://dnavar443:rl9RqMdt@www.dnavarro.com.mialias.net/ejercicioSlotmachine/indice.html)
+
+## Autor
+Proyecto desarrollado por DeneC11 como parte del curso de Desarrollo Web.
